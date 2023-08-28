@@ -142,21 +142,20 @@ address {
 }
 
 .heroimage {
-    height: 600px;
+height: 600px;
     width: 1440px;
     flex-shrink: 0;
+    display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
-    gap: 48px;
     flex-direction: column;
+    gap: 48px;
 
-    background-image: linear-gradient(
-        90deg,
-        rgba(46, 47, 66, 0.7) 0%,
-        rgba(46, 47, 66, 0.7) 100%),
-        url(../images/picture/people-office.jpg);
-    background: var(--text-color);
+    background: var(--grey, rgba(46, 47, 66, 0.7));
+    background-image: linear-gradient(90deg,
+            rgba(46, 47, 66, 0.7) 0%,
+            rgba(46, 47, 66, 0.7) 100%),
+        url("../images/picture/people-office.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
