@@ -137,7 +137,7 @@ footer {
     height: 24px;
 }
 
-.logo-header {
+.web-color {
     color: var(--navyblue, #2e2f42);
     font-family: "Raleway";
     font-size: 18px;
@@ -265,7 +265,7 @@ footer {
     margin: auto;
 }
 
-.hero-title {
+.title {
     color: var(--white, #fff);
     text-align: center;
     font-size: 56px;
