@@ -382,7 +382,7 @@ footer {
     column-gap: 24px;
 }
 
-.project-card-text {
+.project-card-caption {
     display: flex;
     flex-direction: column;
     gap: 8px;
