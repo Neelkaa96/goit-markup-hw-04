@@ -132,11 +132,6 @@ footer {
     background-color: var(--green, #31d0aa);
 }
 
-.studio-media-icon {
-    width: 24px;
-    height: 24px;
-}
-
 .logo-header {
     color: var(--navyblue, #2e2f42);
     font-family: "Raleway";
@@ -430,11 +425,6 @@ footer {
 
 .member-name ul li :hover {
     background-color: var(--ocean, #404bbf);
-}
-
-.person-media-link-icon {
-    width: 16px;
-    height: 16px;
 }
 
 .customers {
