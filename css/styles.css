@@ -92,7 +92,7 @@ footer {
     padding: 100px 156px;
 }
 
-.footer-content {
+.footer-block {
     display: flex;
     width: 1158px;
 }
@@ -137,7 +137,7 @@ footer {
     height: 24px;
 }
 
-.web-color {
+.logo-header {
     color: var(--navyblue, #2e2f42);
     font-family: "Raleway";
     font-size: 18px;
@@ -149,7 +149,7 @@ footer {
     margin-right: 76px;
 }
 
-.color-footer {
+.logo-footer {
     color: var(--cloud, #f4f4fd);
     font-family: "Raleway";
     font-size: 18px;
@@ -160,7 +160,7 @@ footer {
     text-transform: uppercase;
 }
 
-.studio {
+.logo-collor {
     color: var(--iris, #4d5ae5);
 }
 
@@ -265,7 +265,7 @@ footer {
     margin: auto;
 }
 
-.title {
+.hero-title {
     color: var(--white, #fff);
     text-align: center;
     font-size: 56px;
@@ -338,7 +338,7 @@ footer {
     flex-shrink: 0;
 }
 
-.list-project {
+.our-work {
     display: flex;
     justify-content: center;
     gap: 24px;
@@ -349,7 +349,7 @@ footer {
     border: 1px solid var(--cornflower, #e7e9fc);
 }
 
-.section-team {
+.members {
     display: inline-flex;
     gap: 24px;
     justify-content: center;
@@ -366,7 +366,7 @@ footer {
         0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.team-image-caption {
+.member-name {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -382,7 +382,7 @@ footer {
     column-gap: 24px;
 }
 
-.project-card-caption {
+.project-card-text {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -405,11 +405,11 @@ footer {
         0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.element-content {
+.idea {
     color: var(--cloud, #f4f4fd);
 }
 
-.team-background {
+.our-team {
     background-color: var(--cloud, #f4f4fd);
 }
 
@@ -437,7 +437,7 @@ footer {
     height: 16px;
 }
 
-.customers-list {
+.customers {
     display: flex;
     justify-content: center;
     gap: 24px;
