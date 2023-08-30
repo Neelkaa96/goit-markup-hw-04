@@ -539,16 +539,32 @@ margin-left: 120px;
   flex-shrink: 0;
   border: 1px solid #8E8F99;
   border-radius: 4px;
+  position: relative;
+}
+.customer-icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--link-active);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
 }
 
-.customer-icon:hover {
-border-color: var(--link-active);
-fill: var(--link-active);
-cursor: pointer;
+.customer-icon:hover: :before {
+opacity: 1;
 }
 
+.customer-icon svg {
+  fill: #8E8F99;
+}
 
-
+.customer-icon:hover svg {
+  fill: var(--link-active);
+}
 
 .social-icon {
   display: flex;
