@@ -545,11 +545,7 @@ margin-left: 120px;
 border-color: var(--link-active);
 fill: var(--link-active);
 cursor: pointer;
-
 }
-
-
-
 
 .social-icon {
   display: flex;
