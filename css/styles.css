@@ -540,27 +540,13 @@ margin-left: 120px;
   border: 1px solid #8E8F99;
   border-radius: 4px;
 }
-.icon-link {
-  display: inline-block;
-  position: relative;
-}
-.icon-link::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--link-active);
-  opacity: 0;
-  transition: opacity 0.3s;
-  pointer-events: none;
-}
 
-.icon-link:hover::before {
-  opacity: 1;
-}
+.customer-icon:hover {
+border-color: var(--link-active);
+fill: var(--link-active);
+cursor: pointer;
 
+}
 
 
 
