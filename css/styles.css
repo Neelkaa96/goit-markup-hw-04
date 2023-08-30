@@ -539,16 +539,30 @@ margin-left: 120px;
   flex-shrink: 0;
   border: 1px solid #8E8F99;
   border-radius: 4px;
+}
+.icon-link {
+  display: inline-block;
   position: relative;
 }
-
-.color-overlay {
+.icon-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--link-active);
+  opacity: 0;
   transition: opacity 0.3s;
+  pointer-events: none;
 }
 
-.customer-icon:hover .color-overlay {
+.icon-link:hover::before {
   opacity: 1;
 }
+
+
+
 
 
 .social-icon {
