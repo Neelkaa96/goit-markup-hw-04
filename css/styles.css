@@ -541,30 +541,15 @@ margin-left: 120px;
   border-radius: 4px;
   position: relative;
 }
-.customer-icon::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: var(--link-active);
-  opacity: 0;
+
+.color-overlay {
   transition: opacity 0.3s;
-  pointer-events: none;
 }
 
-.customer-icon:hover: :before {
-opacity: 1;
+.customer-icon:hover .color-overlay {
+  opacity: 1;
 }
 
-.customer-icon svg {
-  fill: #8E8F99;
-}
-
-.customer-icon:hover svg {
-  fill: var(--link-active);
-}
 
 .social-icon {
   display: flex;
