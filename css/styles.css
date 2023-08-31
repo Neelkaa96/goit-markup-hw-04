@@ -543,7 +543,7 @@ margin-left: 120px;
 
 .customer-icon:hover {
 border-color: var(--link-active);
-color: var(--link-active);
+fill: var(--link-active);
 cursor: pointer;
 }
 
